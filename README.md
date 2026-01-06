@@ -1,79 +1,136 @@
-# HR Analytics Dashboard using Power-BI
-Created an Interactive HR Dashboard using Power BI.
+📊 HR Analytics Dashboard using Power BI
+📌 Project Overview
+![ss](https://github.com/user-attachments/assets/6358e3f8-a2ac-43ea-9d28-552943d52b7d)
 
+This project presents an HR Analytics Dashboard built using Power BI to analyze employee attrition and key workforce metrics. The dashboard enables HR teams and management to monitor attrition trends, identify problem areas, and take data-driven actions to improve employee retention.
 
-Objective
-The objective of this project is to identify the key factors driving employee attrition and provide actionable insights for improving workforce retention in an organization. This dashboard provides insights into the attrition of an organization, helping the HR team with their further analysis.
+The dashboard is fully interactive, allowing analysis by department, gender, age, salary slab, education field, job role, and tenure.
 
-Throughout this project, I've had the chance to:
+🎯 Objective
 
-🔍 Dive deep into HR data to uncover valuable insights.
+To analyze employee attrition patterns across the organization
 
-📊 Develop interactive dashboards to visualize key HR metrics.
+To identify key factors contributing to employee turnover
 
-💡 Provide data-driven recommendations for strategic decision-making.
+To support HR decision-making through interactive visual insights
 
-Learned about:
+🛠 Tools & Techniques Used
 
-🧮 Calculated Field: To calculate Attrition Rate & Find out the Attrition Count.
+Power BI
 
-📋 Matrix Table: To show Job Satisfaction rating.
+DAX (Calculated Measures)
 
-🍩 Donut Chart and 🥧 Pie Chart.
+Data Modeling
 
-📊 Stacked Column Chart, Bar Chart and 📉 Area Chart.
+Interactive Visualizations
 
-🎯 KPI (Key Performance Indicators) and 🔀 Slicer.
+Filters & Slicers
 
-🔍 Filters: Used to filter data according to different Department and Gender.
+📈 Key KPIs Displayed
 
-Key Insights and Recommendations Summary: 📌
+Total Employees: 1470
 
-Organizational Growth: 📈
- - The organization has grown significantly, currently employing 1470 individuals, indicating substantial growth and scale.
+Attrition Count: 237
 
-Attrition Overview: 💼
- - A total of 237 employees left the organization. Among them, 150 were male and 87 were female, indicating a higher attrition rate among males.
- - Recommendation: Pay attention to gender disparities in attrition and promote diversity and inclusion.
+Attrition Rate: 16.1%
 
-Average Age of Departing Employees: 🎂
- - The average age of employees who left the company is 37 years.
- - Recommendation: Implement retention strategies for employees around 40 years old.
+Average Age: 37 years
 
-Departmental Attrition: 🏢
- - The Research & Development department witnessed the highest attrition, accounting for 133 of the total.
- - Recommendation: Address attrition in the Research & Development department.
+Average Salary: 6.5K
 
-Tenure and Attrition: ⏳
- - Among employees who left, the highest attrition rate was observed among those who spent 1 year at the company (25%), followed by 2 years (11%) and 5 years (9%).
- - Recommendation: Develop employee engagement initiatives for early career employees.
+Average Years at Company: 7 years
 
-Salary Range and Attrition: 💵
- - The majority of employees who left the company belonged to the salary range below $5000 per month, comprising 163 individuals.
- - Recommendation: Enhance compensation and benefits for employees in lower salary ranges.
+📊 Dashboard Analysis & Insights
+🏢 Attrition by Department
 
-Educational Background and Attrition: 🎓
- - The educational background of employees who left the company indicates that 89 individuals had a Life Science background, 63 had a Medical background, and 35 had a Marketing background.
- - Recommendation: Provide opportunities for career growth and learning based on educational backgrounds.
+Research & Development: 133 employees (highest attrition)
 
-Gender-Based Attrition: 🚻
- - Male employees experienced an attrition rate of 17%, while female employees had a slightly lower attrition rate of 14.8%.
- - Recommendation: Pay attention to gender disparities in attrition and promote diversity and inclusion.
+Sales: 92 employees
 
-Department-Specific Attrition Rates: 📉
- - The attrition rate in the Research & Development department was the highest at 56%, followed by Sales at 39% and the HR Department at 5%.
- - Recommendation: Mitigate attrition in the Research & Development and Sales departments with department-specific strategies.
+Human Resources: Lowest attrition
 
-Salary Range Distribution: 💰
- - Approximately 69% of employees who left the company fell under the salary range below $5000, while 21% fell under the $5000-$10,000 range, 8% under the $10,000-$15,000 range, and 2% 
-   under the $20,000+ range.
- - Recommendation: Regularly review and adjust salary ranges to ensure competitiveness.
+📌 Insight: R&D and Sales departments require focused retention strategies.
 
-   Thanks to Rishabh Mishra for guiding me during the learning process.
+🎓 Attrition by Education Field
 
+Life Sciences: 38%
 
+Medical: 27%
 
+Marketing: 15%
 
+Technical Degree: 14%
 
+Others: 5%
 
+📌 Insight: Employees from Life Sciences and Medical backgrounds show higher attrition.
 
+🎂 Attrition by Age Group
+
+26–35 years: 116 (highest)
+
+18–25 years: 44
+
+36–45 years: 43
+
+46–55 years: 26
+
+55+ years: 8
+
+📌 Insight: Mid-career employees (26–35 years) are most likely to leave.
+
+💼 Attrition by Job Role
+
+Laboratory Technician: 62 (31.16%)
+
+Sales Executive: 57 (28.64%)
+
+Research Scientist: 47 (23.6%)
+
+Sales Representative: 33 (16.58%)
+
+📌 Insight: Technical and sales-oriented roles experience higher attrition.
+
+⏳ Attrition by Years at Company
+
+Peak attrition observed at 1 year
+
+Gradual decline with tenure
+
+Small spikes around 5 and 10 years
+
+📌 Insight: Early-stage employees are more prone to leave, highlighting onboarding and engagement gaps.
+
+💰 Attrition by Salary Slab
+
+Up to 5K: 163 employees
+
+5K–10K: 49
+
+10K–15K: 20
+
+15K+: 5
+
+📌 Insight: Lower salary brackets experience significantly higher attrition.
+
+😊 Job Satisfaction by Role
+
+Job satisfaction ratings (1–4) analyzed across roles
+
+Laboratory Technicians and Research Scientists show varied satisfaction levels
+
+📌 Insight: Improving job satisfaction can directly impact retention.
+
+🧠 Key Learnings
+
+Built calculated measures for attrition count and rate using DAX
+
+Used KPI cards for high-level metrics
+
+Implemented Donut, Pie, Bar, Column, Area, and Matrix visuals
+
+Applied department and gender slicers for interactive analysis
+
+✅ Conclusion
+
+This HR Analytics Dashboard demonstrates how Power BI can effectively transform HR data into actionable insights. By identifying attrition drivers related to salary, job role, tenure, age, and department, organizations can design targeted strategies to improve employee retention and workforce stability.
